@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7436E9C3168FBFC400033E41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7436E9C2168FBFC400033E41 /* UIKit.framework */; };
+		7436E9C5168FBFC400033E41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7436E9C4168FBFC400033E41 /* Foundation.framework */; };
+		7436E9C7168FBFC400033E41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7436E9C6168FBFC400033E41 /* CoreGraphics.framework */; };
+		7436E9CD168FBFC400033E41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7436E9CB168FBFC400033E41 /* InfoPlist.strings */; };
+		7436E9CF168FBFC400033E41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436E9CE168FBFC400033E41 /* main.m */; };
+		7436E9D3168FBFC400033E41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436E9D2168FBFC400033E41 /* AppDelegate.m */; };
+		7436E9D5168FBFC400033E41 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7436E9D4168FBFC400033E41 /* Default.png */; };
+		7436E9D7168FBFC400033E41 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7436E9D6168FBFC400033E41 /* Default@2x.png */; };
+		7436E9D9168FBFC400033E41 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7436E9D8168FBFC400033E41 /* Default-568h@2x.png */; };
+		7436E9DC168FBFC400033E41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436E9DB168FBFC400033E41 /* ViewController.m */; };
+		7436E9DF168FBFC400033E41 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7436E9DD168FBFC400033E41 /* ViewController.xib */; };
+		7436E9FB168FC19700033E41 /* PDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7436E9FA168FC19700033E41 /* PDF.pdf */; };
+		7436EA06168FC53900033E41 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436E9F1168FC01C00033E41 /* PageViewController.m */; };
+		7436EA07168FC55300033E41 /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436E9FD168FC20800033E41 /* PDFScrollView.m */; };
+		7436EA08168FC55300033E41 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436E9FF168FC20800033E41 /* TiledPDFView.m */; };
+		7436EA09168FC55300033E41 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436E9EE168FC01C00033E41 /* ContentViewController.m */; };
+		7436EA0B168FC56D00033E41 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7436EA0A168FC56D00033E41 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7436E9BE168FBFC400033E41 /* UIPageViewController + PDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIPageViewController + PDF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7436E9C2168FBFC400033E41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7436E9C4168FBFC400033E41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7436E9C6168FBFC400033E41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7436E9CA168FBFC400033E41 /* UIPageViewController + PDF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIPageViewController + PDF-Info.plist"; sourceTree = "<group>"; };
+		7436E9CC168FBFC400033E41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7436E9CE168FBFC400033E41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7436E9D0168FBFC400033E41 /* UIPageViewController + PDF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController + PDF-Prefix.pch"; sourceTree = "<group>"; };
+		7436E9D1168FBFC400033E41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7436E9D2168FBFC400033E41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7436E9D4168FBFC400033E41 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7436E9D6168FBFC400033E41 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7436E9D8168FBFC400033E41 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7436E9DA168FBFC400033E41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7436E9DB168FBFC400033E41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7436E9DE168FBFC400033E41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7436E9ED168FC01C00033E41 /* ContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		7436E9EE168FC01C00033E41 /* ContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		7436E9F0168FC01C00033E41 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		7436E9F1168FC01C00033E41 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		7436E9FA168FC19700033E41 /* PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF.pdf; sourceTree = "<group>"; };
+		7436E9FC168FC20800033E41 /* PDFScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		7436E9FD168FC20800033E41 /* PDFScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		7436E9FE168FC20800033E41 /* TiledPDFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		7436E9FF168FC20800033E41 /* TiledPDFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		7436EA0A168FC56D00033E41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7436E9BB168FBFC400033E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436EA0B168FC56D00033E41 /* QuartzCore.framework in Frameworks */,
+				7436E9C3168FBFC400033E41 /* UIKit.framework in Frameworks */,
+				7436E9C5168FBFC400033E41 /* Foundation.framework in Frameworks */,
+				7436E9C7168FBFC400033E41 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74328FB6168FD8AB007131D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7436E9ED168FC01C00033E41 /* ContentViewController.h */,
+				7436E9EE168FC01C00033E41 /* ContentViewController.m */,
+				7436E9F0168FC01C00033E41 /* PageViewController.h */,
+				7436E9F1168FC01C00033E41 /* PageViewController.m */,
+				74328FB7168FD8B5007131D5 /* PDF Rendering */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		74328FB7168FD8B5007131D5 /* PDF Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				7436E9FC168FC20800033E41 /* PDFScrollView.h */,
+				7436E9FD168FC20800033E41 /* PDFScrollView.m */,
+				7436E9FE168FC20800033E41 /* TiledPDFView.h */,
+				7436E9FF168FC20800033E41 /* TiledPDFView.m */,
+			);
+			name = "PDF Rendering";
+			sourceTree = "<group>";
+		};
+		7436E9B3168FBFC400033E41 = {
+			isa = PBXGroup;
+			children = (
+				7436E9C8168FBFC400033E41 /* UIPageViewController + PDF */,
+				7436E9C1168FBFC400033E41 /* Frameworks */,
+				7436E9BF168FBFC400033E41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7436E9BF168FBFC400033E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7436E9BE168FBFC400033E41 /* UIPageViewController + PDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7436E9C1168FBFC400033E41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7436EA0A168FC56D00033E41 /* QuartzCore.framework */,
+				7436E9C2168FBFC400033E41 /* UIKit.framework */,
+				7436E9C4168FBFC400033E41 /* Foundation.framework */,
+				7436E9C6168FBFC400033E41 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7436E9C8168FBFC400033E41 /* UIPageViewController + PDF */ = {
+			isa = PBXGroup;
+			children = (
+				74328FB6168FD8AB007131D5 /* Classes */,
+				7436E9D1168FBFC400033E41 /* AppDelegate.h */,
+				7436E9D2168FBFC400033E41 /* AppDelegate.m */,
+				7436E9DA168FBFC400033E41 /* ViewController.h */,
+				7436E9DB168FBFC400033E41 /* ViewController.m */,
+				7436E9DD168FBFC400033E41 /* ViewController.xib */,
+				7436E9C9168FBFC400033E41 /* Supporting Files */,
+			);
+			path = "UIPageViewController + PDF";
+			sourceTree = "<group>";
+		};
+		7436E9C9168FBFC400033E41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7436E9FA168FC19700033E41 /* PDF.pdf */,
+				7436E9CA168FBFC400033E41 /* UIPageViewController + PDF-Info.plist */,
+				7436E9CB168FBFC400033E41 /* InfoPlist.strings */,
+				7436E9CE168FBFC400033E41 /* main.m */,
+				7436E9D0168FBFC400033E41 /* UIPageViewController + PDF-Prefix.pch */,
+				7436E9D4168FBFC400033E41 /* Default.png */,
+				7436E9D6168FBFC400033E41 /* Default@2x.png */,
+				7436E9D8168FBFC400033E41 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7436E9BD168FBFC400033E41 /* UIPageViewController + PDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7436E9E2168FBFC400033E41 /* Build configuration list for PBXNativeTarget "UIPageViewController + PDF" */;
+			buildPhases = (
+				7436E9BA168FBFC400033E41 /* Sources */,
+				7436E9BB168FBFC400033E41 /* Frameworks */,
+				7436E9BC168FBFC400033E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIPageViewController + PDF";
+			productName = "UIPageViewController + PDF";
+			productReference = 7436E9BE168FBFC400033E41 /* UIPageViewController + PDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7436E9B5168FBFC400033E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chilly Sky";
+			};
+			buildConfigurationList = 7436E9B8168FBFC400033E41 /* Build configuration list for PBXProject "UIPageViewController + PDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7436E9B3168FBFC400033E41;
+			productRefGroup = 7436E9BF168FBFC400033E41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7436E9BD168FBFC400033E41 /* UIPageViewController + PDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7436E9BC168FBFC400033E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436E9CD168FBFC400033E41 /* InfoPlist.strings in Resources */,
+				7436E9D5168FBFC400033E41 /* Default.png in Resources */,
+				7436E9D7168FBFC400033E41 /* Default@2x.png in Resources */,
+				7436E9D9168FBFC400033E41 /* Default-568h@2x.png in Resources */,
+				7436E9DF168FBFC400033E41 /* ViewController.xib in Resources */,
+				7436E9FB168FC19700033E41 /* PDF.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7436E9BA168FBFC400033E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436EA07168FC55300033E41 /* PDFScrollView.m in Sources */,
+				7436EA08168FC55300033E41 /* TiledPDFView.m in Sources */,
+				7436EA09168FC55300033E41 /* ContentViewController.m in Sources */,
+				7436EA06168FC53900033E41 /* PageViewController.m in Sources */,
+				7436E9CF168FBFC400033E41 /* main.m in Sources */,
+				7436E9D3168FBFC400033E41 /* AppDelegate.m in Sources */,
+				7436E9DC168FBFC400033E41 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7436E9CB168FBFC400033E41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7436E9CC168FBFC400033E41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7436E9DD168FBFC400033E41 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7436E9DE168FBFC400033E41 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7436E9E0168FBFC400033E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7436E9E1168FBFC400033E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7436E9E3168FBFC400033E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIPageViewController + PDF/UIPageViewController + PDF-Prefix.pch";
+				INFOPLIST_FILE = "UIPageViewController + PDF/UIPageViewController + PDF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7436E9E4168FBFC400033E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIPageViewController + PDF/UIPageViewController + PDF-Prefix.pch";
+				INFOPLIST_FILE = "UIPageViewController + PDF/UIPageViewController + PDF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7436E9B8168FBFC400033E41 /* Build configuration list for PBXProject "UIPageViewController + PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7436E9E0168FBFC400033E41 /* Debug */,
+				7436E9E1168FBFC400033E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7436E9E2168FBFC400033E41 /* Build configuration list for PBXNativeTarget "UIPageViewController + PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7436E9E3168FBFC400033E41 /* Debug */,
+				7436E9E4168FBFC400033E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7436E9B5168FBFC400033E41 /* Project object */;
+}
