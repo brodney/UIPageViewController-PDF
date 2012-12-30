@@ -1,9 +1,8 @@
 //
 //  ContentViewController.h
-//  The Record
 //
 //  Created by Jack Humphries on 3/20/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Jack Humphries. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
