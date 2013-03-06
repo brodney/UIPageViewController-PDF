@@ -7,7 +7,6 @@
 
 #import <UIKit/UIKit.h>
 #import "ContentViewController.h"
-#import "ViewController.h"
 
 @class ContentViewController, UIPrintInteractionController;
 
