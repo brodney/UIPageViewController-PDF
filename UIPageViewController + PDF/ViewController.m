@@ -17,8 +17,9 @@
 
 -(IBAction)openPDF {
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"PDF" ofType:@"pdf"];
-    PageViewController *page = [[PageViewController alloc] initWithPDFAtPath:path];
+    //NSString *path = [[NSBundle mainBundle] pathForResource:@"PDF" ofType:@"pdf"];
+    //PageViewController *page = [[PageViewController alloc] initWithPDFAtPath:path];
+	PageViewController *page = [[PageViewController alloc] initWithPDFFromWeb:@"http://www.cs.cornell.edu/courses/CS4758/2012sp/materials/hmm_paper_rabiner.pdf"];
     [self presentViewController:page animated:YES completion:NULL];
     
 }

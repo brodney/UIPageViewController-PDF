@@ -20,6 +20,15 @@
     
 }
 
+- (id)initWithPDFFromWeb:(NSString *)webUrl {
+	if (self = [super initWithNibName:nil bundle:nil]) {
+		NSURL *pdfUrl = [NSURL URLWithString:webUrl];
+		PDFDocument = CGPDFDocumentCreateWithURL((__bridge CFURLRef)pdfUrl);
+		totalPages = (int)CGPDFDocumentGetNumberOfPages(PDFDocument);
+	}
+	return self;
+}
+
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];

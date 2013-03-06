@@ -23,5 +23,6 @@
 }
 
 -(id)initWithPDFAtPath:(NSString *)path;
-
+- (id)initWithPDFFromWeb:(NSString *)webUrl;
+	
 @end
