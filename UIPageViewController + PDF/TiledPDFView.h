@@ -53,4 +53,5 @@
 - (id)initWithFrame:(CGRect)frame scale:(CGFloat)scale;
 - (void)setPage:(CGPDFPageRef)newPage;
 
+- (void)handlePinch:(UIPinchGestureRecognizer *)gesture;
 @end

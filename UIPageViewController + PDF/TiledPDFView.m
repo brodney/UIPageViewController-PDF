@@ -70,10 +70,16 @@
         tiledLayer.tileSize = CGSizeMake(512.0, 512.0);
         
         myScale = scale;
+		
+		// zoom setup
+		UIGestureRecognizer *pinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(handlePinch:)];
+		[self addGestureRecognizer:pinch];
     }
     return self;
 }
-
+- (void)handlePinch:(UIPinchGestureRecognizer *)gesture {
+	NSLog(@"got pinch");
+}
 
 // The layer's class should be CATiledLayer.
 + (Class)layerClass
@@ -112,6 +118,7 @@
     CGContextScaleCTM(context, 1.0, -1.0);
     
     // Scale the context so that the PDF page is rendered at the correct size for the zoom level.
+	myScale = 2.4;
     CGContextScaleCTM(context, myScale, myScale);    
     CGContextDrawPDFPage(context, pdfPage);
     CGContextRestoreGState(context);
